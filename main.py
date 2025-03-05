@@ -1,3 +1,5 @@
+# В ОДНОЙ ПАПКЕ С ДАННЫМ ФАЙЛОМ ДОЛЖЕН БЫТЬ СОЗДАН ФАЙЛ data.txt
+
 with open(file="data.txt", mode="r", encoding="utf-8") as data_out:
     content = []
     for line in data_out:
